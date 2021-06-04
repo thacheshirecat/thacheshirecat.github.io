@@ -20,10 +20,30 @@ a {
 .barmark {
   visibility: hidden;
 }
+.divider {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  min-height: 15px;
+  box-shadow: 0px 10px 50px #ecb3ff;
+}
 .card {
   background-color: black;
   color: #ecb3ff;
   box-shadow: 5px 5px 5px #ecb3ff;
+  border: 1px solid #ecb3ff;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-bottom: 10em;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  min-height: 256px;
+  line-height: 2em;
+}
+.card:hover {
+  background-color: black;
+  color: #ecb3ff;
+  box-shadow: 5px 5px 15px #ecb3ff;
   border: 1px solid #ecb3ff;
   margin-left: 10em;
   margin-right: 10em;
@@ -43,7 +63,13 @@ a {
   grid-template-rows: 1fr;
   gap: 0px 0px;
   text-align: center;
-
+}
+.head-grid-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  text-align: center;
 }
 .about-container {
   display; grid;
@@ -51,4 +77,6 @@ a {
   grid-template-rows: 1fr;
   margin-top: 25px;
   text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
 }
