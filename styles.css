@@ -45,6 +45,19 @@ a {
   min-height: 256px;
   line-height: 2em;
 }
+.about-card {
+  background-color: black;
+  color: #ecb3ff;
+  box-shadow: 0px 5px 5px #ecb3ff;
+  border: 1px solid #ecb3ff;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 5em;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  line-height: 2em;
+}
 .card:hover {
   background-color: black;
   color: #ecb3ff;
