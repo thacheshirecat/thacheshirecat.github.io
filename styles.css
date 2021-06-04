@@ -26,6 +26,11 @@ a {
   min-height: 15px;
   box-shadow: 0px 10px 50px #ecb3ff;
 }
+.about-me {
+  color: white;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
 .card {
   background-color: black;
   color: #ecb3ff;
